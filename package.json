@@ -2,6 +2,7 @@
   "name": "wtr-sonarqube-reporter",
   "version": "0.1.0",
   "description": "Custom test reporter for @web/test-runner that writes results to SonarQube's generic test exeuction format.",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +14,10 @@
     "sonarqube",
     "reporter"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvromer/wtr-sonarqube-reporter/"
+  },
   "author": "Michael Romer",
   "license": "MIT",
   "devDependencies": {
